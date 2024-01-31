@@ -1,0 +1,41 @@
+body {
+  background-color: darkgray;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  /* flexbox para centrar el game-box en la pantalla */
+}
+
+#game-box {
+  position: relative; 
+  /* La game-box siempre debe tener posición relativa. De esta manera los elementos hijos (la pelota y la paleta) se podrán posicionar en relación a él (posición absoluta) */
+  background-color: black;
+  width: 400px;
+  height: 600px;
+  /* overflow: hidden;  */
+  /* overflow: hidden previene que los elementos salgan de la pantalla */
+}
+
+#ball {
+  background-color: white;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  position: absolute;
+  /* position: absolute nos permite ajustar manualmente la posición del elementa relativo al padre (game-box). Ver propiedades top y left abajo*/
+  top: 30px; 
+  /* top sería la distancia entre el lado superior del contenedor padre (game-box) y el lado superior del elemento */
+  left: 30px; 
+  /* left sería la distancia entre el lado izquierdo del contenedor padre (game-box) y el lado izquierdo del elemento */
+}
+
+#paddle {
+  background-color: white;
+  width: 100px;
+  height: 20px;
+  position: absolute;
+  top: 550px;
+  left: 200px;
+}
