@@ -1,7 +1,7 @@
 // *** Global Variables ***
-const gameBox = document.querySelector("#game-box");
-const ball = document.querySelector("#ball");
-const paddle = document.querySelector("#paddle");
+const gameBoxNode = document.querySelector("#game-box");
+const ballNode = document.querySelector("#ball");
+const paddleNode = document.querySelector("#paddle");
 
 
 // *** Game Functions ***
