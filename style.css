@@ -15,7 +15,7 @@ body {
   width: 400px;
   height: 600px;
   /* overflow: hidden;  */
-  /* overflow: hidden previene que los elementos salgan de la pantalla */
+  /* overflow hidden previene que los elementos salgan de la pantalla visualmente*/
 }
 
 #ball {
@@ -24,11 +24,11 @@ body {
   height: 20px;
   border-radius: 10px;
   position: absolute;
-  /* position: absolute nos permite ajustar manualmente la posición del elementa relativo al padre (game-box). Ver propiedades top y left abajo*/
+  /* position: absolute nos permite ajustar manualmente la posición del elemento relativo al padre (game-box). Ver propiedades top y left abajo*/
   top: 30px; 
-  /* top sería la distancia entre el lado superior del contenedor padre (game-box) y el lado superior del elemento */
+  /* top es la distancia entre el lado superior del contenedor padre (game-box) y el lado superior de la pelotita */
   left: 30px; 
-  /* left sería la distancia entre el lado izquierdo del contenedor padre (game-box) y el lado izquierdo del elemento */
+  /* left es la distancia entre el lado izquierdo del contenedor padre (game-box) y el lado izquierdo de la pelotita */
 }
 
 #paddle {
